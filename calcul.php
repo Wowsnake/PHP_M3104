@@ -30,3 +30,4 @@
         echo'type="radio"name="op"value="'.$operateurs[$cpt].'"/>'.$operateurs[$cpt].'<br/>
         '."\n";}
     end_page();
+    ?>

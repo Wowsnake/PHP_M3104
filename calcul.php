@@ -3,20 +3,19 @@
     start_page("calcul");
     $op1 = $_GET['op1'];
     $op2 = $_GET['op2'];
-    $op = $_GET['op'];
     $action = $_GET['action'];
     echo $action;
-    if('*'== $op)
+    if('*'== $action)
     {
         $res = $op1 * $op2;
     }
-    elseif('+'== $op)
+    elseif('+'== $action)
     {
         $res = $op1 + $op2;
     }
     else
         {
-            echo'<br/><strong>opérateur'.$op.'nongéré</strong>';
+            echo'<br/><strong>opérateur'.$action.'nongéré</strong>';
         }
     if (isset($res)) echo $op1. $action . $op2 . '=' . $res;
     end_page();

@@ -6,7 +6,7 @@
     echo '
     <form action = "calcul.php" method = "post"
     <input type = "text" name = "op1" >
-    <input type = "text" name = "op2" >';
+    <input type = "text" name = "op2" ><br>';
     for($cpt=0;$cpt<=3;++$cpt)
     {
         echo'<input';

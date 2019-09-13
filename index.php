@@ -14,8 +14,8 @@
 // exo 3
     function start_page($title)
     {
-        echo ' <DOCTYPE html> <
-    lang="fr"><head><title>' . PHP_EOL . $title . '</title></head><body>' . PHP_EOL;
+        echo ' <DOCTYPE html> <lang="fr">
+ <head><title>' . PHP_EOL . $title . '</title></head><body>' . PHP_EOL;
     };
 
     start_page('titre');

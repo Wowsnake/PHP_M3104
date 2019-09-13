@@ -9,7 +9,7 @@
     <input type = "text" name = "op2" ><br>';
     for($cpt=0;$cpt<=3;++$cpt)
     {
-        echo '<input';
+        echo '<input ';
         if($cpt==0)
         {
             echo'checked="checked"';

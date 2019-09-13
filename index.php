@@ -11,7 +11,7 @@
     echo $var1 + $var2;
     //echo $var1 + $var3;//
     */
-/* exo 3
+// exo 3
     function start_page($title)
     {
         echo ' <DOCTYPE html> <
@@ -27,11 +27,13 @@
     }
     echo '<hr/><br/><strong>Test</strong><br/><hr/>';
     end_page();
-*/
+
+/* exo 4
     echo date('l F d, Y')."<br>";
     $jour = date('l F d, Y');
     $jour = date('d/m/Y', strtotime('2020-04-01'));
     echo $jour;
+*/
 
     ?>
 

@@ -28,7 +28,7 @@
     echo '<hr/><br/><strong>Test</strong><br/><hr/>';
     end_page();
 */
-    echo date('l F d, Y');
+    echo date('l F d, Y')."\n";
     $jour = date('l F d, Y');
     $jour = date('d/m/Y', strtotime('2020-04-01'));
     echo $jour;

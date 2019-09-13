@@ -5,6 +5,7 @@
     $op2 = $_GET['op2'];
     $op = $_GET['op'];
     $action = $_GET['action'];
+    echo $action;
     if('*'== $op)
     {
         $res = $op1 * $op2;

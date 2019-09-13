@@ -4,8 +4,8 @@
     start_page("calculatrice");
     $operateurs = '*+-/';
     echo '
-    <form action = "calcul.php" method = "post"
-    <input type = "text" name = "op1" >
+    <form action = "calcul.php" method = "post">
+    <input type = "text" name = "op1" ><br>
     <input type = "text" name = "op2" ><br>';
     for($cpt=0;$cpt<=3;++$cpt)
     {

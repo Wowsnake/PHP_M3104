@@ -17,6 +17,6 @@
         {
             echo'<br/><strong>opérateur'.$op.'nongéré</strong>';
         }
-
+    if (isset($res)) echo $op1. $action . $op2 . '=' . $res;
     end_page();
     ?>

@@ -17,9 +17,6 @@
             echo'<br/><strong>opérateur'.$op.'nongéré</strong>';
         }
     $operateurs = '*+-/';
-    $operateurs[0];
-    $operateurs[1];
-    $operateurs[2];
     for($cpt=0;$cpt<=3;++$cpt)
     {
         echo'<input';
